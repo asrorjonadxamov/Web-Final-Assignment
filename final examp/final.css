@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+header {
+    height: 800px;
+    background-image: url('/final examp/suratlar/rasim4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    gap: 30px;
+
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    
+}
+
+.chiziq{
+    width: auto;
+    height: 10px;
+    background-color: #c08909;
+}
+body{
+
+ background-color: black;
+
+}
+.navbar p{
+    padding-left: 40px;
+    padding-top: 400px;
+    color: rgb(251, 255, 179);
+
+    font-weight: 900;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ .navbar-profile{
+    display: flex;
+    justify-content: left;
+    height: 70px;
+    width: 150px;
+}
+center{
+    padding-top: 50px;
+    color: antiquewhite;
+    font-size: 50px;
+    color: #c08909;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+.links{
+    
+    width: auto;
+    height: 45px;
+    font-size: 30px;
+    padding: 20px   ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+    background-color: rgb(129, 70, 7);
+}
+.word p{
+   color: antiquewhite;
+    font-size: 10px;
+}
+.header_links{
+    gap: 50px;
+    padding-left: 300px;
+}
+
+
+.links a{
+    gap: 100px;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(251, 255, 179);
+    padding-left: 15px;
+    
+}
+
+.left img{
+    border: 10px white;
+    width: 700px;
+    height: 350px;
+    border-radius: 0px 25px 25px 0px; 
+
+  }
+  .right{
+    width: 50%;
+    height: 300px;
+
+  }
+  .right p{
+   color: rgb(251, 255, 179) ;
+   font-size: 60px;
+   font-weight: bold;
+   padding-top:100px ;
+   padding-left: 1px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+
+ /* .images1{
+    width: 100%;
+   padding-top: 30px;
+    text-align: center;
+    display: flex;
+    
+  }  */
+  
+  .right1 img{
+    width: 700px;
+    height: 350px;
+    margin-left: 50px;
+    border-radius: 25px 0px 0px 25px;
+    
+  }
+ /* .right1{
+    width: 50%;
+    height: 300px;
+  }*/
+
+  
+  .left1 p{
+   color: rgb(251, 255, 179) ;
+   font-size: 60px;
+   font-weight: bold;
+    padding-top: 100px;
+   padding-left: 350px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .images{
+    flex-wrap: wrap; 
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+  }
+  .left{
+    width: 50%;
+  }
+  .right{
+    width: 50%;
+  }
+
+  .images1{
+    flex-wrap: wrap; 
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+  }
+  .left1{
+    width: 50%;
+  }
+  .right1{
+    width: 50%;
+  }
+.mainfooter{
+padding-top: 100px ;
+
+}
+.footer{
+    padding-top: 30px;
+    background-color: #c08909;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+
+.location2{
+    border-radius:50px ;
+    height: 200px;
+    width: 600px;
+}
+
+.contact p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    padding-left: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+.contact a{
+
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact{
+    width: 50%;
+    
+
+}
+
+.location P{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    padding-left: 20px;
+    font-size: 50px;
+    font-weight: 900;
+}
+.location{
+    width: 50%;
+}
+.contact img{
+   width: 50px;
+   height: 50px;
+   padding-top: 20px;
+   padding-left: 40px;
+
+
+}
+
+.sec-1__cards { 
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly; 
+    gap: 35px; 
+    flex-wrap: wrap; 
+  } 
+  .sec-1__cards > .card { 
+    width: 300px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+    padding: 20px; 
+    border-radius: 25px; 
+    background-image: url('/suratlar/bronze.jpg'); 
+    backdrop-filter: blur(15px); 
+    text-align: center; 
+    color: #000; 
+  } 
+  .sec-1__cards > .card:hover { 
+  scale: 1.1; 
+  } 
+  .sec-1__cards > .card > h1 { 
+    color: #fff; 
+  } 
+  .sec-1__cards > .card > button { 
+    padding: 10px;  
+    border-radius: 1px; 
+    border: none; 
+    background: #bb3a3a00; 
+    color: #fff; 
+  } 
+  .sec-1__cards img { 
+    border-radius: 30px; 
+  }
+
